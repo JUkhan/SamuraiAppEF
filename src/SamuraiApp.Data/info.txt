@@ -1,0 +1,5 @@
+﻿
+PM>get-help entityframewrk
+PM>update-database -verboses
+PM>script-migration
+PM>scaffold-dbcontext -provider Microsoft.EntiyFrameworkCore.SqlServer -connection "Data Source=(LocalDB)\MSSQLLcalDB;Inittia Cataog = SamuraiAppData"
